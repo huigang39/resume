@@ -1,0 +1,159 @@
+--- 
+layout: default
+--- 
+{% assign header = content | split: '<hr />' | first | strip %}
+{% assign main = content | split: '<hr />' | shift | join: '<hr />' %}
+{% if site.querytime %}
+  {% assign querytime = site.time | date: '%s' | prepend: '?' %}
+{% endif %}
+
+<!DOCTYPE html>
+<html
+{% if page.lang.size > 0 %}
+  lang="{{ page.lang }}"
+{% endif %}{% if site.manifest.size > 0 %}
+  manifest="{{site.manifest}}{{querytime}}"
+{% endif %}>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ page.title | default: '我的简历' }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}{{querytime}}">
+  {% for script in site.scripts %}
+  <script src="{{script.src}}{{querytime}}" {{script.defer}}></script>
+  {% endfor %}
+  <meta property="og:type" content="website">
+  {% if page.lang == 'zh'%}
+    <meta property="og:description" content="{{page.title}} 详细简历">
+  {% else %}
+    <meta property="og:description" content="resume details of {{page.title}}">
+  {% endif%}
+  {% if page.photo.size %}
+    <meta property="og:image" content="{{page.photo}}{{querytime}}">
+  {% endif %}
+<!--[if lte IE 9]>
+<script>if(/*@cc_on!@*/0){var a='header,address,main,section,footer,details,summary,article'.split(','),i=0;while(i<a.length)document.createElement(a[i++])}
+</script>
+<link rel="stylesheet" href="{{ '/assets/css/ie.css' | prepend: site.baseurl | replace: '//', '/' }}{{ querytime }}">
+<![endif]-->
+</head>
+<body>
+<header>
+    {% if page.photo.size > 0 %}
+      <div class="avatar">
+        <img src="{{page.photo}}{{querytime}}" alt="photo">
+      </div>
+    {% endif %}
+    <div id="name">
+        {% assign header = header | strip | remove_first: '<h1' %}
+        {% assign jobtitle = header | split: '</h1>' | shift | join: '</h1>' | split: '>' | shift | join: '>' | split: '<' | pop | join: '<' %}        
+        <h1 {{ header | split: '</h1>' | first | strip }}</h1>
+        <div class="jobtitle"> {{ jobtitle | strip }}</div>
+    </div>
+    <address class="contact">
+    {% for item in page.contact %}
+        {% if item[1] and item[1] != '' %}
+        <div class="contact-item">
+          {% assign icon = item[0] | prepend: 'icons/' | append: '.svg'%}        
+          <i class="icon" aria-hidden="true">{% include {{icon}} %}</i>
+          <a href="">{{item[1]}}</a>
+        </div>    
+        {% endif %}                  
+    {% endfor %}
+    </address>
+<!--[if lte IE 9]><br><![endif]-->
+</header>
+<main>
+    {% assign sections = main | split: '<h2 ' | compact | shift %}
+
+    {% for section in sections %}
+    <section>    
+        {% assign content = section | split: '</h2>' | shift | join: '</h2>' | strip  %}
+        {% assign tagname = content | split: '>' | first | strip | split: ' ' |  first | strip %}
+
+        <h2 class="subject" {{ section | split: '</h2>' | first | strip }}</h2>
+        
+        {% if tagname =='<h3' %}
+        {% comment %} 标准内容 {% endcomment %}
+           <div class="content">
+           {% assign articles = content | split: '<h3 ' | shift  %}
+           {% for article in articles %}
+
+           <article class="block">
+               {% assign token = article | strip %}
+
+                {% comment %} h3 and h4  tag{% endcomment %}
+                <div class="head">
+                    <h3 class="title" {{ token | split: '</h3>' | first | strip }}</h3>
+                    {% assign token = token | split: '</h3>' | shift | join: '</h3>' | strip %}
+                    {% assign sub = token | split: '<h4' %}
+                    {% if sub[0] == '' %}
+                        <h4 class="sub" {{sub | shift | join: '<h4' | split: '</h4>' | pop | join: '</h4>'| strip}}</h4>
+                    {% assign token = token | split: 'h4>' | last | strip | append: ' ' %}
+                    {% endif %}
+                </div>
+
+                {% comment %} h5 tags and time{% endcomment %}
+                <div class="info">
+                    {% assign info = token | split: '</h5>' | pop %}
+                    {% assign token = token | split: '</h5>' | last | strip %}
+                    {% for i in info %}
+                        {% if i contains '</code>' %}
+                        <div class="tag" {{ i | remove_first: '<h5' | strip }}</div>
+                        {% else %}
+                        <i class="time" {{ i | remove_first: '<h5' | strip }}</i>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                
+                {% comment %} display details {% endcomment %}
+                {% assign tagname = token | split: '>'| first | strip| split: ' ' | first | strip | remove: '<' | strip | downcase %}
+                {% if tagname == 'details' %}
+                    {{ token | split: '</summary>' | first | replace_first: '<summary', '<summary class="summary"' | strip }}</summary>
+                    {% assign token = token | split: '</summary>' | shift | join: '</summary>' | strip %}
+                    <div class="detail">{{ token | split: '</details>'| first | strip }}</div></details>
+                {% elsif tagname == 'ul' %}
+                 {{token | replace_first: '<ul','<ul class="items"' | replace: '<li', '<li class="item"' | strip }}
+                {% elsif tagname == 'h6' %}
+                    {% assign end_tag = token | split: '/' | last | strip %}
+                    {% if end_tag == 'h6>' %}
+                        {{ token | replace_first: '<h6','<div class="summary"' | replace: '</h6>','</div>' | strip}}
+                    {% else %}
+                        <details open>{{ token | replace_first: '<h6','<summary class="summary"' | replace: '</h6>', '</summary><div class="detail">'}}</div></details>
+                    {% endif %}
+                {% else %}
+                    <div class="detail">{{token}}</div>
+                {% endif %}
+
+            </article>
+            {% endfor %}
+            </div>
+        
+        {% elsif tagname =='<ul' %}
+        {% comment %} 列表形式 {% endcomment %}
+            {% assign items = content | split: '<div class="highlighter-rouge"><pre class="highlight"><code>' %}
+            {{ items | first | replace_first: '<ul', '<ul class="content"' | strip }}
+            {% assign items = items | shift %}
+
+            {% for item in items %}
+                {% assign token = item | split: '</code></pre>' | first | strip %}
+                {% assign text_itmes = token | newline_to_br | split: '<br />' %}
+                {% for text in text_itmes %}
+                    <span class="text item">{{text|escape}}</span>
+                {% endfor %}
+
+                {% assign token = item | split: '</code></pre>' | shift | join:'</code></pre>' | strip %}
+                {{token | remove_first: '</div>'}}
+            {% endfor %}
+
+        {% else %}
+        {% comment %} 未知格式 {% endcomment %}
+            <div class="content">{{content}}</div>
+        {% endif %}
+
+    </section>
+    {% endfor %}
+</main>
+</body>

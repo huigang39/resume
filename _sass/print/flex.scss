@@ -1,0 +1,115 @@
+/* 
+左右密集打印样式
+chrome 优先
+*/
+
+@media print {
+  /*页面设置*/
+  @import 'print';
+
+  header {
+    padding: $print-header-padding;
+
+    .avatar img {
+      height: 7.5em;
+    }
+  }
+
+  .info .time,
+  .info code {
+    font-size: 90%;
+  }
+  /*color*/
+  .block .sub {
+    color: #222;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: $print-section-margin;
+    padding: $print-section-padding;
+
+    h2 {
+      width: auto !important;
+
+      &:lang(en) {
+        font-size: 1.2em;
+      }
+
+      &:lang(zh) {
+        font-size: 1.8em;
+      }
+    }
+
+    .content {
+      width: $print-content-width;
+      padding: 0;
+    }
+  }
+
+  details {
+    flex-basis: 100%;
+  }
+
+  .block {
+    margin: $print-block-margin;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .head {
+      min-width: 62%;
+    }
+
+    .info .time {
+      order: 2;
+    }
+
+    .time {
+      color: #000;
+      padding: 0 .3em;
+      text-align: right;
+    }
+
+    .detail {
+      text-indent: .9em;
+    }
+
+    .detail,
+    .text {
+      margin-top: 1px;
+      background: none;
+      color: #000;
+    }
+  }
+
+  .tag {
+    margin-right: .5em; // border-bottom: 1px dashed;   
+    code {
+      color: #333;
+
+      &:not(:last-child)::after {
+        content: ',';
+        font-size: 50%;
+      }
+    }
+  }
+
+  .head .sub {
+    font-weight: 600; // font-size: 14px;
+  }
+
+  section > ul {
+    & > li {
+      display: flex;
+      justify-content: flex-start; // align-items: baseline;
+    }
+
+    ul > li {
+      margin: 0;
+    }
+  }
+}

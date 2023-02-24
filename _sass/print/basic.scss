@@ -1,0 +1,34 @@
+/* 
+基本打印样式与浏览器一致
+chrome 优先
+*/
+
+@media print {
+  /*基本样式*/
+  @import 'print';
+
+  /*color*/
+  .block .sub,
+  .info .time,
+  .info code {
+    color: #222;
+  }
+
+  section {
+    margin: $print-section-margin;
+    padding: $print-section-padding;
+  }
+
+  .block:not(:first-child) {
+    padding-top: .3em;
+  }
+
+  .head .sub {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  section > ul li:last-child {
+    margin-bottom: 0;
+  }
+}

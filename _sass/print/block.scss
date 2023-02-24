@@ -1,0 +1,100 @@
+/* 
+无拆分打印样式
+chrome 优先
+*/
+
+@media print {
+  /*页面设置*/
+  @import 'print';
+
+  header {
+    padding: $print-header-padding;
+
+    .avatar img {
+      height: 7.5em;
+    }
+  }
+
+  .info .time,
+  .info code {
+    font-size: 90%;
+  }
+  /*color*/
+  .block .sub {
+    color: #222;
+  }
+
+  section {
+    margin: $print-section-margin;
+    padding: $print-section-padding;
+
+    h2,
+    .content {
+      display: block;
+      margin: .3em auto;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    .content {
+      width: $print-content-width;
+    }
+  }
+
+  .block {
+    margin: $print-block-margin;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .head {
+      min-width: 62%;
+    }
+
+    .info .time {
+      order: 2;
+    }
+
+    .time {
+      color: #111;
+      padding: 0 .3em;
+      text-align: right;
+    }
+
+    details {
+      flex-basis: 100%;
+    }
+
+    .detail,
+    .text {
+      margin-top: 1px;
+      background: none; // font-weight: normal;
+      color: #000;
+    }
+  }
+
+  .tag {
+    color: #222;
+    margin-right: .5em; // border-bottom: 1px dashed;   
+    code:not(:last-child)::after {
+      content: ',';
+      font-size: 50%;
+    }
+  }
+
+  .head .sub {
+    font-weight: 600;
+  }
+
+  section>ul {
+    &>li {
+      display: block;
+    }
+    ul>li {
+      margin: 0;
+    }
+  }
+  }

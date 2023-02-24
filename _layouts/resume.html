@@ -1,0 +1,201 @@
+--- 
+layout: default
+--- 
+{% assign data = site.data[ page.data] | default: site.data['resume'] %}
+{% if site.querytime %}
+  {% assign querytime = site.time | date: '%s' | prepend: '?' %}
+{% endif %}
+<!DOCTYPE html>
+<html
+{% if data['lang'].size > 0 %}
+  lang="{{ data.lang }}"
+{% endif %}{% if site.manifest.size > 0 %}
+  manifest="{{site.manifest}}{{querytime}}"
+{% endif %}>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta charset="UTF-8"/>
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>{{ data.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | replace: '//', '/' }}{{querytime}}">
+  {% for script in site.scripts %}
+  <script src="{{script.src}}{{querytime}}" {{script.defer}}></script>
+  {% endfor %}
+  <meta property="og:type" content="website">
+  {% if data.lang == 'zh'%}
+    <meta property="og:description" content="{{data.name}}-{{data.jobtitle}},详细简历">
+  {% else %}
+    <meta property="og:description" content="resume details of {{data.name}} - {{data.jobtitle}}">
+  {% endif%}
+  {% if data.photo %}
+    <meta property="og:image" content="{{data.photo}}{{querytime}}">
+  {% endif %}
+<!--[if lte IE 9]>
+<script>if(/*@cc_on!@*/0){var a='header,address,main,section,footer,details,summary,article'.split(','),i=0;while(i<a.length)document.createElement(a[i++])}
+</script>
+<link rel="stylesheet" href="{{ '/assets/css/ie.css' | prepend: site.baseurl | replace: '//', '/' }}{{ querytime }}">
+<![endif]-->
+</head>
+
+<body>
+    <header>
+      {% if data.photo.size > 0 %}
+      <div class="avatar">
+        <img src="{{data.photo}}{{querytime}}" alt="photo">
+      </div>
+      {% endif %}
+      <div id="name">
+        <h1>{{ data.name }}</h1>
+        <div class="jobtitle">{{ data.jobtitle }}</div>
+      </div>
+      <address class="contact">
+        {% for item in data.contact %}
+        <div class="contact-item">
+          {% if item.icon.size > 0 %}
+            {% include {{item.icon}} %}
+          {% endif %} 
+          <span class="icon">{{item.desc}}</span>
+          {% if item.href.size > 0 %}
+          <a href="{{item.href }}" {{ item.attr }}>{{ item.text }}</a>
+          {% else %}
+          <span>{{ item.text }}</span> 
+          {% endif %}
+        </div>
+        {% endfor %}
+      </address>
+      <!--[if lte IE 9]><br><![endif]-->
+    </header>
+
+    <main>
+      {% for list in data.main %}
+      <section id="{{list.type}}">
+        <h2 class="subject">{{ list.name | default: list.type }}</h2>
+        <div class="content">
+          {% for content in list.content %}
+          <article class="block">
+
+            <div class="head">
+              {% if content.url.size > 0 %}
+                <h3 class="title"><a href="{{content.url}}" target="_blank">{{ content.title }}</a></h3>
+              {% else %}
+                <h3 class="title">{{ content.title }}</h3>
+              {% endif %} 
+              {% if content.sub.size > 0 %}
+                <h4 class="sub">{{ content.sub }}</h4>
+              {% endif %}
+            </div>
+
+            <div class="info">
+              {% if content.tags.size > 0 %}
+              <div class="tag">
+                {% for tag in content.tags %}
+                <code>{{ tag }}</code>
+                {% endfor %}
+              </div>
+              {% endif %}
+              {% if content.duration.size > 0 %}
+               <i class="time">{{ content.duration }}</i>
+              {% endif %}
+            </div>
+
+            {% if content.detail.size > 0 %}
+              {% comment %} 解析markdown文件 {% endcomment %}
+              {% if content.detail.md %}
+                {% capture md %}{% include_relative {{content.detail.md}} %}{% endcapture %}
+                {% assign detail= md | markdownify %}
+              {% else %}
+                {% assign detail=content.detail %}
+              {% endif %}
+
+              {% if content.summary %}
+                <details {{ content.open }}>
+                  <summary class="summary">{{ content.summary }}</summary>
+                  <div class="detail">{{ detail }}</div>
+                </details>
+              {% else %}
+                <div class="detail">{{ detail }}</div>
+              {% endif %}
+
+            {% elsif content.items %}
+              <p class="items">
+                {% for item in content.items %}
+                  <span class="item">{{ item }}</span>
+                {% endfor %} 
+              </p>
+            {% elsif content.summary %}
+              <p class="summary">{{ content.summary }}</p>
+            {% endif %}
+
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+      {% endfor %} 
+      
+      {% for other in data.others %}
+      <section class="other" id="{{ other.type }}">
+        <h2 class="subject">{{ other.name | default: other.type }}</h2>
+        <ul class="content">
+          {% for content in other.content %}
+          <li class="block">
+            {% if content.title %}
+              <h3 class="name">{{ content.title }}</h3>
+            {% endif %}
+            {% if content.text%}
+              <span class="text">{{ content.text }}</span> 
+            {% elsif content.items %}
+              {% for item in content.items %}
+                <span class="text item">{{ item }}</span>
+              {% endfor %} 
+            {% elsif content.list %}
+              <ul class="list">
+                {% for li in content.list %}
+                  <li class="text">{{ li }}</li>
+                {% endfor %}
+              </ul>
+            {% else %}
+              <span>{{ content }}</span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+
+    </main>
+
+  {% if data.footer.screen.size > 0 %}
+  <footer class="screen">
+    <ul>
+      {% for footer in data.footer.screen %}
+        {% if footer.href.size > 0 %}
+          <li><a href="{{footer.href}}">{{ footer.text | default:footer }}</a></li>
+        {% else %}
+          <li>{{ footer.text | default:footer }}</li>
+        {% endif %} 
+      {% endfor %}
+      {% case data.lang %} 
+        {% when 'zh' %}
+          <li class="pc-only" ><a href="javascript:window.print()">打印 (PDF)</a></li>
+          <li>更新 @ {{ page.date | default: site.time | date: '%Y-%m-%d'}}</li>
+        {% when 'en' %}
+          <li class="pc-only" ><a href="javascript:window.print()">Print (PDF)</a></li>
+          <li>Last edit @ {{ page.date | default: site.time | date: '%B %d, %Y'}}</li>
+      {% endcase %}
+    </ul>
+  </footer>
+  {% endif %}
+  
+  {% if data.footer.print.size > 0 %}
+   {% capture md %}{% include_relative {{data.footer.print}} %}{% endcapture %}
+  <footer class="print">{{ md | markdownify }}</footer>
+ {% endif %}
+
+  {% for script in data.scripts %}
+    <script src="{{ script.src }}{{querytime}}" {{ script.defer }}></script>
+  {% endfor %}
+</body>
+
+</html>
