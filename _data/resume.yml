@@ -30,23 +30,18 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 郑州轻工业大学
+    duration: "2020年9月 - 2024年"
+    sub: 本科
+    detail: 本科是车辆工程专业，自学了计算机和嵌入式部分技术。
 
 - type: skills
-  # name: "技能"
+  name: "技能"
   content:
   - title: 编程语言
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
+    - C/C++
+    - Python
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
 
