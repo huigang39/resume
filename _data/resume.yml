@@ -18,6 +18,7 @@ contact: #联系方式连接等3~5行
 - text: "个人博客"
   href: 'http://huigang39.github.io/blog'
   icon: 'icons/web.svg'
+  attr: 'target="_blank"' #新标签页打开
 - text: "Github ID"
   href: 'https://github.com/huigang39'
   icon: "icons/github.svg"
