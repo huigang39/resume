@@ -94,7 +94,7 @@ main: #简历主要内容，
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
-    - title: 摩擦纳米发电
+  - title: 摩擦纳米发电
     duration: 2022年09月 - 2023年04月
     summary: Projects' introduction or summary
     detail:
