@@ -16,7 +16,7 @@ contact: #联系方式连接等3~5行
   href: 'tel:13092723486'
   icon: 'icons/phone.svg'
 - text: "个人博客"
-  href: 'http://huigang39@github.io/blog'
+  href: 'http://huigang39.github.io/blog'
   icon: 'icons/web.svg'
 - text: "Github ID"
   href: 'https://github.com/huigang39'
@@ -55,9 +55,9 @@ main: #简历主要内容，
   - title: 梅科尔工作室
     duration: "2020年09月 - 2024年07月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - 学校组织
+    summary: 大组管理层, 项目负责人
+    detail: 负责工作室其中一个大组的管理事务, 和另一个大组的部分事务, 负责多个
     # open: open
     #可以设置open默认展开
   - title: Job Title
@@ -72,20 +72,29 @@ main: #简历主要内容，
   name: 项目
   content:
   - title: 陪护机器人
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
+    duration: 2021年05月 - 2022年05月
+    summary: 项目和工作介绍，项目总结.
     sub: 维护者
   - title: 康复评估系统
+    duration: 2022年04月 - 2022年06月
     summary: Projects' introduction or summary
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
   - title: 柔性驱动器
+    duration: 2022年05月 - 2022年08月
     summary: Projects' introduction or summary
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
-  - title: 摩擦纳米发电
+  - title: 城市道路优化
+    duration: 2022年10月 - 2023年03月
+    summary: Projects' introduction or summary
+    detail:
+      md: _data/demo.md
+    sub: Creator and maintainer.
+    - title: 摩擦纳米发电
+    duration: 2022年09月 - 2023年04月
     summary: Projects' introduction or summary
     detail:
       md: _data/demo.md
@@ -102,13 +111,15 @@ others: #其他列表显示
     text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
+    - 唱歌
+    - 旅游
+    - 听书
+    - 电子产品
+  - title: 奖项
     list:
-    - 第一项
-    - 第二项
+    - 国奖1
+    - 国奖2
+    - 国奖3
 #- type:
 #  name: '其他'
 #  content: #选择需要的格式
@@ -121,7 +132,7 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "欢迎访问我的简历，感谢帮助过我的所有人！"
+  - text: "更多个人信息请访问在线简历(https://huigang39.github.io/resume)"
     href: "https://github.com/huigang39"
 
 #页面额外js脚本，如xx统计
