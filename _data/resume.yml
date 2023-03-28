@@ -24,7 +24,7 @@ contact: #联系方式连接等3~5行
   attr: 'target="_blank"' #新标签页打开
 - text: "Bilibili ID"
   href: 'https://space.bilibili.com/88637865'
-  icon: "icons/github.svg"
+  icon: "icons/bilibili.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
@@ -46,8 +46,12 @@ main: #简历主要内容，
     items: #itmems 可以小块的方式显示
     - C/C++
     - Python
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: 硬件
+    summary: Arduino, STM32, ESP32
+  - title: 框架
+    summary: ROS, Apollo, Flutter
+  - title: 开发工具
+    summary: Git, Docker, Anaconda, Vim
 
 - type: experience
   name: 经验
@@ -77,7 +81,7 @@ main: #简历主要内容，
     detail: 项目和工作介绍，项目总结.
     sub: 维护者
   - title: 康复评估系统
-    summary: Projects' introduction or summary
+    summary: 康复评估系统
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
