@@ -69,7 +69,7 @@ main: #简历主要内容，
     duration: 2021年05月 - 2022年05月
     summary: 辅助脑卒中患者完成坐站转换康复过程。
     detail:
-      md: _data/陪护机器人.md
+      md: _data/demo.md
     sub: Creator and maintainer.
   - title: 康复评估系统
     duration: 2022年04月 - 2022年06月
