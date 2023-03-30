@@ -12,18 +12,18 @@ contact: #联系方式连接等3~5行
 - text: "huigang39@outlook.com" #文本内容
   href: 'email: huigang39@outlook.com' #链接，无链接则空
   icon: 'icons/email.svg' #图标 svg文件
-- text: "电话号码：13092723486"
+- text: "13092723486"
   href: 'tel:13092723486'
   icon: 'icons/phone.svg'
-- text: "个人博客：huigang39.github.io/blog"
+- text: "huigang39.github.io/blog"
   href: 'http://huigang39.github.io/blog'
   icon: 'icons/web.svg'
   attr: 'target="_blank"' #新标签页打开
-- text: "Github ID：huigang39"
+- text: "huigang39"
   href: 'https://github.com/huigang39'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
-- text: "Bilibili ID：Ikaros39"
+- text: "Ikaros39"
   href: 'https://space.bilibili.com/88637865'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
