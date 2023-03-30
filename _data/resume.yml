@@ -25,7 +25,7 @@ contact: #联系方式连接等3~5行
   attr: 'target="_blank"' #新标签页打开
 - text: "Bilibili ID"
   href: 'https://space.bilibili.com/88637865'
-  icon: "icons/bilibili.svg"
+  icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
@@ -67,7 +67,7 @@ main: #简历主要内容，
   content:
   - title: 陪护机器人
     duration: 2021年05月 - 2022年05月
-    summary: 辅助脑卒中患者完成坐站转换康复过程。
+    summary: 辅助脑卒中患者完成坐站转换康复过程, 并采用惯性动作捕捉技术采集患者的康复运动姿态, 结合康复评估系统进行康复疗程的评估。
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
@@ -102,9 +102,6 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
   - title: "兴趣:"
     items: #单行列表
     - 唱歌
