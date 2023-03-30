@@ -53,11 +53,14 @@ main: #简历主要内容，
     - Arduino
   - title: 软件
     items:
-    - ROS,
+    - C++
+    - Python
+    - ROS
     - Apollo
     - Docker
     - Flutter
     - RT-Thread
+    - Linux
 
 - type: experience
   name: 经验
