@@ -48,7 +48,7 @@ main: #简历主要内容，
     - C/C++
     - Python
   - title: 其他技能
-    summary: PCB设计, 单片机开发, RTOS(RT-Thread), ROS, Apollo, Docker, Flutter
+    summary: 三维建模(Fusion 360), 电路和PCB设计(Multisim, Altium Design), 单片机开发(Arduino, ESP32, STM32, RT-Thread), 软件开发(ROS, Apollo, Docker, Flutter)
 
 - type: experience
   name: 经验
@@ -91,7 +91,7 @@ main: #简历主要内容，
     sub: Creator and maintainer.
   - title: 摩擦纳米发电
     duration: 2022年09月 - 2023年04月
-    summary: 利用摩擦纳米发电机特性, 可将不同类型的机械信号转换为电信号, 通过深度学习算法大量分析电信号数据以实现不同的传感器功能。
+    summary: 利用摩擦纳米发电机特性, 可将不同类型的机械信号转换为电信号, 通过深度学习算法大量分析电信号数据以实现不同场景的分类和预测。
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
