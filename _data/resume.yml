@@ -97,7 +97,7 @@ main: #简历主要内容，
     sub: Creator and maintainer.
   - title: 城市道路优化
     duration: 2022年10月 - 2023年03月
-    summary: 通过摄像头和监测城市道路中车辆运行情况, 优化交通灯调度, 对于城市管理部门提供数字孪生监控系统, 可实时查看城市交通的运行情况, 方便城市监测。
+    summary: 通过摄像头和监测城市道路中车辆运行情况, 优化交通灯调度, 对于城市管理部门提供数字孪生监控系统, 可实时查看城市交通的运行情况。
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
