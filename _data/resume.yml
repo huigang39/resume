@@ -59,7 +59,7 @@ main: #简历主要内容，
     - Apollo
     - Docker
     - Flutter
-    - RT-Thread
+    - RTOS
     - Linux
 
 - type: experience
