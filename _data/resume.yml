@@ -15,8 +15,8 @@ contact: #联系方式连接等3~5行
 - text: "13092723486"
   href: 'tel:13092723486'
   icon: 'icons/phone.svg'
-- text: "huigang39.github.io/blog"
-  href: 'http://huigang39.github.io/blog'
+- text: "huigang39.github.io"
+  href: 'http://huigang39.github.io'
   icon: 'icons/web.svg'
   attr: 'target="_blank"' #新标签页打开
 - text: "huigang39"
@@ -121,7 +121,7 @@ others: #其他列表显示
     - 唱歌
     - 旅游
     - 动漫
-  - MBTI: INTJ
+  - title: MBTI：INTJ
   - title: 奖项
     list:
     - 2021年ICAN全国大学生创新创业大赛总决赛，用于下肢肌无力老人步行康复如厕陪护机器人，国二
