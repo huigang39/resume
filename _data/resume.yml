@@ -36,7 +36,7 @@ main: #简历主要内容，
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 郑州轻工业大学
-    duration: "2020年09月 - 2024年07月"
+    duration: 2020年09月 - 2024年07月
     sub: 本科
     detail: 车辆工程
 
@@ -66,7 +66,7 @@ main: #简历主要内容，
   name: 经验
   content:
   - title: 梅科尔工作室
-    duration: "2020年09月 - 2024年07月"
+    duration: 2020年09月 - 2024年07月
     tags:
     - 学校组织
     summary: 大组管理层，项目负责人
