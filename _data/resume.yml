@@ -41,7 +41,7 @@ main: #简历主要内容，
     detail: 车辆工程
 
 - type: skills
-  name: "技能"
+  name: 技能
   content:
   - title: 硬件开发
     items: #itmems 可以小块的方式显示
