@@ -43,7 +43,7 @@ main: #简历主要内容，
 - type: skills
   name: "技能"
   content:
-  - title: 硬件
+  - title: 硬件开发
     items: #itmems 可以小块的方式显示
     - Fusion360
     - Multisim
@@ -51,7 +51,7 @@ main: #简历主要内容，
     - ESP32
     - STM32
     - Arduino
-  - title: 软件
+  - title: 软件开发
     items:
     - C++
     - Python
