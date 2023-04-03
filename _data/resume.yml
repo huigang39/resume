@@ -142,11 +142,7 @@ others: #其他列表显示
 
 #footer 脚注，打印版和web版不同不显示
 footer: #脚注多组
-  print:
-  - text: "简历脚注"
-  #   href: '/'
-  - text: "更多个人信息请访问在线简历(https://huigang39.github.io/resume)"
-    href: "https://huigang39.github.io/resume"
+  print: #打印版markdown或者html
   screen:
   - text: "简历脚注"
   #   href: '/'
