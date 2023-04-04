@@ -10,7 +10,7 @@ print:
   # basic:网页基本一致，
   # flex: 侧栏密集排版，
   # block:无侧栏
-  template: 'basic' 
+  template: 'flex'
   #字体大小
   fontsize: 12px
   #页面边距设置，3~5mm为佳[不建议修改]
