@@ -45,21 +45,21 @@ main: #简历主要内容，
   content:
   - title: 硬件开发
     items: #itmems 可以小块的方式显示
-    - Fusion360
-    - Multisim
-    - Altium Designer
-    - ESP32
-    - STM32
+    - Fusion360、
+    - Altium Designer、
+    - Multisim、
+    - ESP32、
+    - STM32、
     - Arduino
   - title: 软件开发
     items:
-    - C++
-    - Python
-    - ROS
-    - Apollo
-    - Docker
-    - Flutter
-    - RTOS
+    - C++、
+    - Python、
+    - ROS、
+    - Apollo、
+    - Docker、
+    - Flutter、
+    - RTOS、
     - Linux
 
 - type: experience
@@ -120,7 +120,7 @@ others: #其他列表显示
     - 看书（社会学、心理学）、
     - 唱歌、
     - 旅游、
-    - 动漫、
+    - 动漫
   - title: MBTI：
     items: INTJ - 建筑师
   - title: 奖项
