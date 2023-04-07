@@ -46,7 +46,7 @@ main: #简历主要内容，
   - title: 硬件开发
     items: #itmems 可以小块的方式显示
     - Fusion360、
-    - Altium Designer、
+    - KiCAD、
     - Multisim、
     - ESP32、
     - STM32、
