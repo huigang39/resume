@@ -147,8 +147,8 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "更多个人信息请访问在线简历(https://huigang39.github.io/resume)"
-    href: "https://huigang39.github.io/resume"
+  - text: "更多个人信息请访问博客"
+    href: "https://huigang39.github.io"
 
 #页面额外js脚本，如xx统计
 scripts:
