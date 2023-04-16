@@ -45,21 +45,21 @@ main: #简历主要内容，
   content:
   - title: 硬件开发
     items: #itmems 可以小块的方式显示
-    - Fusion360、
-    - KiCAD、
-    - Multisim、
-    - ESP32、
-    - STM32、
+    - Fusion360
+    - 立创EDA
+    - Multisim
+    - ESP32
+    - STM32
     - Arduino
   - title: 软件开发
     items:
-    - C++、
-    - Python、
-    - ROS、
-    - Apollo、
-    - Docker、
-    - Flutter、
-    - RTOS、
+    - C++
+    - Python
+    - ROS
+    - Apollo
+    - Docker
+    - Flutter
+    - RTOS
     - Linux
 
 - type: experience
@@ -116,10 +116,10 @@ others: #其他列表显示
   content: #选择需要的格式
   - title: 兴趣：
     items: #单行列表
-    - 电子产品、
-    - 看书（社会学、心理学）、
-    - 唱歌、
-    - 旅游、
+    - 电子产品
+    - 听书
+    - 唱歌
+    - 旅游
     - 动漫
   - title: MBTI：
     items: INTJ - 建筑师
