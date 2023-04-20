@@ -35,7 +35,7 @@ main:
   - title: 郑州轻工业大学
     duration: 2020年09月 - 2024年07月
     sub: 本科
-    items: 车辆工程专业
+    tags: 车辆工程专业
 
 - type: skills
   name: 技能
@@ -61,7 +61,7 @@ main:
   name: 经历
   content:
   - title: 梅科尔工作室（Maker Studio）
-    duration: 2020年09月 - 2024年07月
+    duration: 2020年09月 - 至今
     tags:
     - 学校组织
     summary: 大组管理层，项目负责人
