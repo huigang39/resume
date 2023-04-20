@@ -23,7 +23,7 @@ the markdown resume template
 ###### summary introduction
 
 ### Main start with 3 Hashtag(#)
-#### Sub start with 4 Hashtag 
+#### Sub start with 4 Hashtag
 ##### `tags` `with` `backtick`
 ##### duration with 5 Hashtag
 just some description
@@ -73,7 +73,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ipsam ducimus l
         start with 8 spaces
         in each line
 * ### or just strong message
-* 
+*
         inline item1
         inline item2
 *  And you can just Just a simple line
@@ -88,4 +88,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, ipsam ducimus l
     * item1
     * item2
     * time3
-
