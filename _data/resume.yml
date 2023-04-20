@@ -49,8 +49,8 @@ main: #简历主要内容，
     - 熟练使用Fusion360等电子设计和建模工具，能够进行产品结构和外观设计
   - title: 软件技能
     items:
-    - 在Linux环境下有多年软件开发经验,熟悉Morden C++和Python编程语言
-    - 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS,有相关项目开发经验。
+    - 在Linux环境下有多年软件开发经验，熟悉Morden C++和Python编程语言
+    - 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS，有相关项目开发经验。
     - 了解Dart语言和Flutter框架，能开发Android和iOS的跨平台应用
     - 熟悉Docker容器工具,能进行软件打包和部署
   - title: 其他技能
