@@ -54,7 +54,7 @@ main:
     detail: 1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br> &nbsp &nbsp
             2. 熟练使用Fusion360、立创EDA等电子设计和建模工具，能够进行产品结构和外观设计 <br> &nbsp &nbsp
   - title: 软件技能
-    detail: 2. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br> &nbsp &nbsp
+    detail: 1. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br> &nbsp &nbsp
             2. 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS，有相关项目开发经验 <br> &nbsp &nbsp
             3. 了解Dart语言和Flutter框架，能够开发Android和iOS的跨平台应用 <br> &nbsp &nbsp
             4. 熟悉Docker容器工具，能够进行软件打包和部署 <br> &nbsp &nbsp
