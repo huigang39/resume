@@ -42,7 +42,7 @@ main:
   content:
   - title: 硬件技能
     lists: #items 可以小块的方式显示
-    - 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接等
+    - 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等
     - 熟练使用Fusion360等电子设计和建模工具，能够进行产品结构和外观设计
   - title: 软件技能
     lists:
