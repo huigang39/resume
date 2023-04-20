@@ -96,7 +96,7 @@ main:
     tags:
     - Noiton
     - IMU
-    - ML/DL
+    - ML&DL
   - title: 柔性驱动器
     duration: 2个月
     summary: 从物理和软件层面实现对机器人柔顺运动性能的控制，并通过改变期望动态特性以满足不同交互操作任务的柔顺性需求。
@@ -127,7 +127,7 @@ main:
     - TENG
     - TinyML
     - ESP32
-    - ML/DL
+    - ML&DL
 
 #others 其他简略内容(列表)
 others: #其他列表显示
