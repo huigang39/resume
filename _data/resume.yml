@@ -102,7 +102,6 @@ main:
     detail:
       md: _data/demo.md
     sub: 材料加工测试、嵌入式、深度学习
-   #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
