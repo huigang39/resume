@@ -1,7 +1,7 @@
 title: "求职简历"
 lang: "zh"
 name: "王慧钢"
-jobtitle: "嵌入式软件开发工程师"
+jobtitle: "嵌入式软件"
 photo: "assets/img/photo.png"
 
 #联系方式
@@ -42,8 +42,8 @@ main:
   content:
   - title: 硬件技能
     list:
-    - 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等
-    - 熟练使用Fusion360等电子设计和建模工具，能够进行产品结构和外观设计
+    - ESP
+    - se
   - title: 软件技能
     list:
     - 在Linux环境下有多年软件开发经验,熟悉Morden C++和Python编程语言
