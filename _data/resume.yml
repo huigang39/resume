@@ -72,23 +72,23 @@ main:
     duration: September 2020 - Present
     tags:
     - School Organization
-    summary: Large group management, project leader
+    summary: Group management, Project leader
     detail: Responsible for the management affairs of one of the large groups in the studio, and part of the affairs of another group. Served as the person in charge of several projects.
     # open: open
 - type: projects
   name: Projects
   content:
-  - title: Lower limb sit-to-stand conversion rehabilitation exoskeleton for stroke patients
+  - title: LL STS Rehab Exoskeleton
     duration: 1 year
     summary: Assist stroke patients to complete the rehabilitation process from sitting to standing, and use inertial motion capture technology to collect the rehabilitation exercise posture of patients combined with the rehabilitation assessment system to evaluate the rehabilitation course.
     detail:
       md: _data/demo.md
-    sub: Software development & structural design responsible person
+    sub: S/W Dev & Struc. Design Resp.
     tags:
     - STS sit-to-stand trajectory
     - OpenPose human pose recognition
     - Neo4j graph database
-  - title: Upper limb rehabilitation training evaluation system based on multimodal information fusion
+  - title: Upper Limb Rehab Training Eval System
     duration: 2 months
     summary: For passive and active upper limb rehabilitation training evaluation of stroke patients. While assisting stroke patients in performing rehabilitation training exercises, the training results are quantitatively evaluated.
     detail:
@@ -98,7 +98,7 @@ main:
     - Noiton motion capture
     - IMU inertial sensor
     - ML&DL
-  - title: Flexible drive system based on impedance control
+  - title: Flexible Impedance Ctrl Drive System
     duration: 2 months
     summary: Physically and softwarely control the compliant motion performance of the robot. By changing the expected dynamic characteristics to meet the compliant needs of different interactive operation tasks.
     detail:
@@ -107,18 +107,18 @@ main:
     tags:
     - FOC motor control
     - SEA compliant driver
-  - title: Intelligent traffic light signal control system based on vehicle road cloud
+  - title: Intelligent Traffic Light Ctrl System based on Vehicle Road Cloud
     duration: 5 months
     summary: Monitor the operation of vehicles on city roads through cameras and adaptively optimize traffic light scheduling. Provide digital twin monitoring systems for city management departments to view the operation of urban traffic in real time.
     detail:
       md: _data/demo.md
-    sub: Algorithm development & hardware development responsible person
+    sub: Alg. & H/W Dev. Resp.
     tags:
     - SUMO micro traffic simulation
     - Unity3D digital twin
     - TinyML embedded AI
     - ESP32 IoT development
-  - title: Driving behavior detection and evaluation system based on triboelectric nanogenerator
+  - title: Driving Behavior Detection & Eval System based on TENG
     duration: 8 months
     summary: Utilize the characteristics of triboelectric nanogenerators to convert different types of mechanical signals into electrical signals. Analyze a large amount of electrical signal data through deep learning algorithms to achieve classification and prediction in different scenarios.
     detail:
