@@ -51,7 +51,7 @@ main:
     - 机器学习
     - 编程语言：C++ Python Shell
   - title: 硬件技能
-     detail: 1. 在腾讯和百度主导过多个项目，有Own/Lead项目经验<br> &nbsp &nbsp
+    detail: 1. 在腾讯和百度主导过多个项目，有Own/Lead项目经验<br> &nbsp &nbsp
             2. 有稽核风控的策略经验，有独立分析和解决安全问题的能力，能针对作弊场景进行有效数据挖掘并形成安全策略 <br> &nbsp &nbsp
             3. 掌握多种人工智能和机器学习算法，并能有效应用于安全风控中。如孤立森林等判异算法、聚类算法、XGBoost、<br>GCN/GraphSage（熟悉）等 <br> &nbsp &nbsp
             4. 具备数据分析、大数据开发、图计算等大数据分析处理能力。 包含hive、spark、graphx、python等<br> &nbsp &nbsp
