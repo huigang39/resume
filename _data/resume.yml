@@ -85,6 +85,7 @@ main:
       md: _data/demo.md
     sub: 软件开发&结构设计负责人
     tags:
+    - STS坐站转换轨迹
     - OpenPose人体姿态识别
     - Neo4j图数据库
   - title: 基于多模态信息融合的上肢康复训练评估系统
