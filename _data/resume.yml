@@ -4,7 +4,7 @@ name: "Huigang Wang"
 # jobtitle: "Embedded Software Development"
 photo: "assets/img/photo.png"
 
-# contact information
+#contact information
 contact:
 - text: "huigang39@outlook.com"
   href: 'email: huigang39@outlook.com'
@@ -27,7 +27,7 @@ contact:
   # - text: "Address"
   #   icon: "icons/location.svg"
 
-# main The following is the main content, the number of categories is not limited
+#main The following is the main content, the number of categories is not limited
 main:
 - type: education
   name: Education
@@ -129,7 +129,7 @@ main:
     - TinyML embedded AI
     - ESP32 IoT development
     - ML&DL
-# others Other brief content (list)
+#others Other brief content (list)
 others:
 - type: others
   name: Other
@@ -157,12 +157,12 @@ others:
 
 #footer Footnote, print version and web version are different without display
 footer:
-print:
-screen:
-- text: "Resume Footnote"
-#   href: '/'
-- text: "For more personal information, please visit the blog"
-  href: "<http://huigang39.github.io>"
+  print:
+  screen:
+  - text: "Resume Footnote"
+  #   href: '/'
+  - text: "For more personal information, please visit the blog"
+    href: "<http://huigang39.github.io>"
 
 #Additional page JS scripts, such as XX statistics
 scripts:
