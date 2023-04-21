@@ -48,7 +48,7 @@ main:
     - Fusion360
     - JLC EDA
     - Machine Learning
-    - Programming Languages: C++, Python, Shell
+    - Programming Languages：C++, Python, Shell
   - title: Hardware Skills
     detail:
       1. Familiar with hardware circuit design and development of MCUs such as ESP32, STM32 and Arduino, including PCB design, component selection and manual soldering of surface mount components <br> &nbsp; &numsp;
