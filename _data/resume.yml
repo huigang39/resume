@@ -51,21 +51,18 @@ main:
     - 机器学习
     - 编程语言：C++ Python Shell
   - title: 硬件技能
-    detail:
-      1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br>
-      2. 熟练使用Fusion360、立创EDA等电子设计和建模工具，能够进行产品结构和外观设计 <br>
+    detail: 1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br>
+            2. 熟练使用Fusion360、立创EDA等电子设计和建模工具，能够进行产品结构和外观设计 <br>
   - title: 软件技能
-    detail:
-      1. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br> &nbsp &nbsp
-      2. 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS，有相关项目开发经验 <br>
-      3. 了解Dart语言和Flutter框架，能够开发Android和iOS的跨平台应用 <br>
-      4. 熟悉Docker容器工具，能够进行软件打包和部署 <br>
+    detail: 1. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br>
+            2. 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS，有相关项目开发经验 <br>
+            3. 了解Dart语言和Flutter框架，能够开发Android和iOS的跨平台应用 <br>
+            4. 熟悉Docker容器工具，能够进行软件打包和部署 <br>
   - title: 其他技能
-    detail:
-      1. 熟悉各种开源平台与软硬件资源，有独立研发简单机器人和智能产品的能力 <br>
-      2. 良好的专业英语文档和资料阅读和使用能力 <br>
-      3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br>
-      4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
+    detail: 1. 熟悉各种开源平台与软硬件资源，有独立研发简单机器人和智能产品的能力 <br>
+            2. 良好的专业英语文档和资料阅读和使用能力 <br>
+            3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br>
+            4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
 
 - type: experience
   name: 经历
