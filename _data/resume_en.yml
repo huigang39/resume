@@ -1,1 +1,166 @@
-
+title: "Personal Resume"
+lang: "en"  
+name: "Wang Hui Gang"
+# jobtitle: "Embedded Software Development" 
+photo: "assets/img/photo.png"  
+#contact information
+contact: 
+- text: "huigang39@outlook.com"
+  href: 'email: huigang39@outlook.com' 
+  icon: 'icons/email.svg'
+- text: "13092723486"
+  href: 'tel:13092723486'
+  icon: 'icons/phone.svg'
+- text: "huigang39.github.io" 
+  href: 'http://huigang39.github.io' 
+  icon: 'icons/web.svg'
+  attr: 'target="_blank"'
+- text: "huigang39"
+  href: 'https://github.com/huigang39' 
+  icon: "icons/github.svg"
+  attr: 'target="_blank"'
+- text: "Ikaros39"
+  href: 'https://space.bilibili.com/88637865'
+  icon: "icons/bilibili.svg"
+  attr: 'target="_blank"'
+  # - text: "Address"
+  #   icon: "icons/location.svg"
+#main The following is the main content, the number of categories is not limited     
+main:  
+- type: education
+  name: Education
+  content:
+  - title: Zhengzhou University of Light Industry
+    duration: September 2020 - July 2024
+    sub: Undergraduate
+    detail: Vehicle Engineering  
+- type: skills
+  name: Skills
+  content:
+  - title: Technology Stack and Programming Languages
+    items:
+    - Linux  
+    - ROS
+    - Docker
+    - Flutter
+    - Fusion360  
+    - EDAPrime
+    - Machine Learning
+    - Programming Languages: C++, Python, Shell
+  - title: Hardware Skills
+    detail:   
+      1. Familiar with hardware circuit design and development of MCUs such as ESP32, STM32 and Arduino, including PCB design, component selection and manual soldering of surface mount components <br> &nbsp; &numsp;    
+      2. Proficient in electronic design and modeling tools such as Fusion360 and EDAPrime to design product structures and appearances <br>   
+  - title: Software Skills
+    detail:  
+      1. Has many years of development experience in Linux environment, proficient in Modern C++ and Python programming languages <br> &nbsp; &numsp;   
+      2. Familiar with ROS, Apollo autonomous driving system, embedded Linux and RTOS, and has relevant project development experience <br> &nbsp; &numsp;   
+      3. Understand Dart language and Flutter framework, can develop cross-platform apps for Android and iOS <br> &nbsp; &numsp;   
+      4. Familiar with Docker container tools for software packaging and deployment <br>
+  - title: Other Skills
+    detail: 
+      1. Familiar with various open source platforms and hardware and software resources, with the ability to independently develop simple robots and intelligent products <br> &nbsp; &numsp;  
+      2. Good professional English reading and using ability of documents and materials <br> &nbsp; &numsp;   
+      3. Strong information retrieval ability, can quickly learn new technologies and development environments to adapt to different project requirements <br> &nbsp; &numsp;   
+      4. Certain communication ability, able to communicate technical issues and solutions with people with different technical backgrounds
+- type: experience
+  name: Experience
+  content:
+  - title: Maker Studio
+    duration: September 2020 - Present 
+    tags:
+    - School Organization
+    summary: Large group management, project leader
+    detail: Responsible for the management affairs of one of the large groups in the studio, and part of the affairs of another group. Served as the person in charge of several projects.    
+    # open: open   
+- type: projects
+  name: Projects
+  content:
+  - title: Lower limb sit-to-stand conversion rehabilitation exoskeleton for stroke patients
+    duration: 1 year
+    summary: Assist stroke patients to complete the rehabilitation process from sitting to standing, and use inertial motion capture technology to collect the rehabilitation exercise posture of patients combined with the rehabilitation assessment system to evaluate the rehabilitation course.
+    detail:
+      md: _data/demo.md
+    sub: Software development & structural design responsible person
+    tags:
+    - STS sit-to-stand trajectory    
+    - OpenPose human pose recognition
+    - Neo4j graph database
+  - title: Upper limb rehabilitation training evaluation system based on multimodal information fusion
+    duration: 2 months
+    summary: For passive and active upper limb rehabilitation training evaluation of stroke patients. While assisting stroke patients in performing rehabilitation training exercises, the training results are quantitatively evaluated.   
+    detail:    
+      md: _data/demo.md
+    sub: Project leader
+    tags:
+    - Noiton motion capture    
+    - IMU inertial sensor
+    - ML&DL
+  - title: Flexible drive system based on impedance control
+    duration: 2 months
+    summary: Physically and softwarely control the compliant motion performance of the robot. By changing the expected dynamic characteristics to meet the compliant needs of different interactive operation tasks. 
+    detail:    
+      md: _data/demo.md
+    sub: Project leader
+    tags:
+    - FOC motor control
+    - SEA compliant driver
+  - title: Intelligent traffic light signal control system based on vehicle road cloud     
+    duration: 5 months
+    summary: Monitor the operation of vehicles on city roads through cameras and adaptively optimize traffic light scheduling. Provide digital twin monitoring systems for city management departments to view the operation of urban traffic in real time.   
+    detail:    
+      md: _data/demo.md
+    sub: Algorithm development & hardware development responsible person
+    tags:
+    - SUMO micro traffic simulation    
+    - Unity3D digital twin
+    - TinyML embedded AI    
+    - ESP32 IoT development
+  - title: Driving behavior detection and evaluation system based on triboelectric nanogenerator
+    duration: 8 months  
+    summary: Utilize the characteristics of triboelectric nanogenerators to convert different types of mechanical signals into electrical signals. Analyze a large amount of electrical signal data through deep learning algorithms to achieve classification and prediction in different scenarios.
+    detail:    
+      md: _data/demo.md
+    sub: Project leader
+    tags:
+    - TENG triboelectric nanogenerator
+    - TinyML embedded AI
+    - ESP32 IoT development
+    - ML&DL   
+#others Other brief content (list)    
+others:   
+- type: others
+  name: Other
+  content:  
+  - title: Interests:     
+    items:     
+    - Electronic products     
+    - Listening to books
+    - Singing
+    - Travel 
+    - Animation
+  - title: MBTI:
+    items: INTJ - Architect    
+  - title: Awards     
+    list:
+    - 2021 ICAN National College Students Innovation and Entrepreneurship Competition Finals, Rehabilitation Robot for Lower Limb Muscle Weakness Elderly Toilet Escort, Second Prize Nationally  
+    - The 5th Fourier Cup China Rehabilitation Innovation Competition, Active and Passive Rehabilitation Training Robotic Arm, Second Prize Nationally
+    - "Smart Chongqing. See the Future" Huawei Cloud Artificial Intelligence Competition, Rehabilitation System for Lower Limb Muscle Weakness Patients Sitting and Standing Conversion, Third Prize Nationally
+    - 2022 16th "Siemens Cup" China Intelligent Manufacturing Challenge Competition National Preliminaries, Intelligent Manufacturing Innovation and R&D Event: Enterprise Proposed Direction, First Prize
+    - 2021 Internet +, AIOT Smart Community Services, First Prize Provincially / Finalist Nationally
+    - 2022 3D Digital Innovation Design Competition Elite League, Rehabilitation Robot for Weak and Disabled Elderly Walking and Toileting, First Prize Provincially
+    - 2022 Mechanical Innovation Design Competition, Coral Worm Tentacle Variable Stiffness Origami Robot Arm, Second Prize Provincially
+    - 2022 Robotics and Artificial Intelligence Competition, Silver Age Butler - Upper Limb Rehabilitation Training Evaluation System Based on Multimodal Information Fusion, Third Prize Provincially     
+    - 2022 US-China Youth Maker Competition, Intelligent Mobile Full Omnidirectional Photovoltaic Power Generation Robot Based on ROS System, Third Prize Provincially
+#footer Footnote, print version and web version are different without display 
+footer:    
+print:  
+screen:
+- text: "Resume Footnote"   
+#   href: '/'
+- text: "For more personal information, please visit the blog"
+  href: "<http://huigang39.github.io>"   
+#Additional page JS scripts, such as XX statistics  
+scripts:  
+#- src: "assets/js/resume.js"   
+# defer: defer #You can set defer or sync for asynchronous loading
