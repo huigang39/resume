@@ -1,10 +1,10 @@
-title: "Personal Resume"
-lang: "en"
-name: "Huigang Wang"
-# jobtitle: "Embedded Software Development"
+title: "个人简历"
+lang: "zh"
+name: "王慧钢"
+# jobtitle: "嵌入式软件开发"
 photo: "assets/img/photo.png"
 
-#contact information
+#联系方式
 contact:
 - text: "huigang39@outlook.com"
   href: 'email: huigang39@outlook.com'
@@ -24,148 +24,157 @@ contact:
   href: 'https://space.bilibili.com/88637865'
   icon: "icons/bilibili.svg"
   attr: 'target="_blank"'
-  # - text: "Address"
+  # - text: "地址"
   #   icon: "icons/location.svg"
 
-#main The following is the main content, the number of categories is not limited
+#main下面是主体内容，类别条数不限
 main:
 - type: education
-  name: Education
+  name: 教育
   content:
-  - title: Zhengzhou University of Light Industry
-    duration: September 2020 - July 2024
-    sub: Undergraduate
-    detail: Vehicle Engineering
+  - title: 郑州轻工业大学
+    duration: 2020年09月 - 2024年07月
+    sub: 本科
+    detail: 车辆工程专业
+
 - type: skills
-  name: Skills
+  name: 技能
   content:
-  - title: Technology Stack and Programming Languages
+  - title: 技术栈和编程语言
     items:
     - Linux
     - ROS
     - Docker
     - Flutter
     - Fusion360
-    - JLC EDA
-    - Machine Learning
-    - Programming Languages：C++, Python, Shell
-  - title: Hardware Skills
+    - 立创EDA
+    - 机器学习
+    - 编程语言：C++、Python、Shell
+  - title: 硬件技能
     detail:
-      1. Familiar with hardware circuit design and development of MCUs such as ESP32, STM32 and Arduino, including PCB design, component selection and manual soldering of surface mount components <br> &nbsp; &numsp;
-      2. Proficient in electronic design and modeling tools such as Fusion360 and EDAPrime to design product structures and appearances <br>
-  - title: Software Skills
+      1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br> &nbsp; &numsp;
+      2. 熟练使用Fusion360、立创EDA等电子设计和建模工具，能够进行产品结构和外观设计 <br>
+  - title: 软件技能
     detail:
-      1. Has many years of development experience in Linux environment, proficient in Modern C++ and Python programming languages <br> &nbsp; &numsp;
-      2. Familiar with ROS, Apollo autonomous driving system, embedded Linux and RTOS, and has relevant project development experience <br> &nbsp; &numsp;
-      3. Understand Dart language and Flutter framework, can develop cross-platform apps for Android and iOS <br> &nbsp; &numsp;
-      4. Familiar with Docker container tools for software packaging and deployment <br>
-  - title: Other Skills
+      1. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br> &nbsp; &numsp;
+      2. 熟悉ROS机器人操作系统、Apollo自动驾驶系统和嵌入式Linux与RTOS，有相关项目开发经验 <br> &nbsp; &numsp;
+      3. 了解Dart语言和Flutter框架，能够开发Android和iOS的跨平台应用 <br> &nbsp; &numsp;
+      4. 熟悉Docker容器工具，能够进行软件打包和部署 <br>
+  - title: 其他技能
     detail:
-      1. Familiar with various open source platforms and hardware and software resources, with the ability to independently develop simple robots and intelligent products <br> &nbsp; &numsp;
-      2. Good professional English reading and using ability of documents and materials <br> &nbsp; &numsp;
-      3. Strong information retrieval ability, can quickly learn new technologies and development environments to adapt to different project requirements <br> &nbsp; &numsp;
-      4. Certain communication ability, able to communicate technical issues and solutions with people with different technical backgrounds
+      1. 熟悉各种开源平台与软硬件资源，有独立研发简单机器人和智能产品的能力 <br> &nbsp; &numsp;
+      2. 良好的专业英语文档和资料阅读和使用能力 <br> &nbsp; &numsp;
+      3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br> &nbsp; &numsp;
+      4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
+
 - type: experience
-  name: Experience
+  name: 经历
   content:
-  - title: Maker Studio
-    duration: September 2020 - Present
+  - title: 梅科尔工作室（Maker Studio）
+    duration: 2020年09月 - 至今
     tags:
-    - School Organization
-    summary: Group management, Project leader
-    detail: Responsible for the management affairs of one of the large groups in the studio, and part of the affairs of another group. Served as the person in charge of several projects.
+    - 学校组织
+    summary: 大组管理层，项目负责人
+    detail: 负责工作室其中一个大组的管理事务，和另一组的部分事务，先后担任多个项目的负责人。
     # open: open
+
 - type: projects
-  name: Projects
+  name: 项目
   content:
-  - title: Lower Limb STS Rehab Exoskeleton
-    duration: 1 year
-    summary: Assist stroke patients to complete the rehabilitation process from sitting to standing, and use inertial motion capture technology to collect the rehabilitation exercise posture of patients combined with the rehabilitation assessment system to evaluate the rehabilitation course.
+  - title: 用于中风患者的下肢坐站转换康复外骨骼
+    duration: 1年
+    summary: 辅助脑卒中患者完成坐站转换康复过程，并采用惯性动作捕捉技术采集患者的康复运动姿态，结合康复评估系统进行康复疗程的评估。
     detail:
       md: _data/demo.md
-    sub: S/W Dev & Struc. Design Resp.
+    sub: 软件开发&结构设计负责人
     tags:
-    - STS sit-to-stand trajectory
-    - OpenPose human pose recognition
-    - Neo4j graph database
-  - title: Upper Limb Rehab Training Eval System
-    duration: 2 months
-    summary: For passive and active upper limb rehabilitation training evaluation of stroke patients. While assisting stroke patients in performing rehabilitation training exercises, the training results are quantitatively evaluated.
+    - STS坐站转换轨迹
+    - OpenPose人体姿态识别
+    - Neo4j图数据库
+  - title: 基于多模态信息融合的上肢康复训练评估系统
+    duration: 2个月
+    summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
     detail:
       md: _data/demo.md
-    sub: Project leader
+    sub: 项目负责人
     tags:
-    - Noiton motion capture
-    - IMU inertial sensor
+    - Noiton动作捕捉
+    - IMU惯性传感器
     - ML&DL
-  - title: Flexible Impedance Ctrl Drive System
-    duration: 2 months
-    summary: Physically and softwarely control the compliant motion performance of the robot. By changing the expected dynamic characteristics to meet the compliant needs of different interactive operation tasks.
+  - title: 基于阻抗控制的柔性驱动系统
+    duration: 2个月
+    summary: 从物理和软件层面实现对机器人柔顺运动性能的控制，并通过改变期望动态特性以满足不同交互操作任务的柔顺性需求。
     detail:
       md: _data/demo.md
-    sub: Project leader
+    sub: 项目负责人
     tags:
-    - FOC motor control
-    - SEA compliant driver
-  - title: iTraffic Light Ctrl System (Vehicle Road Cloud-based)
-    duration: 5 months
-    summary: Monitor the operation of vehicles on city roads through cameras and adaptively optimize traffic light scheduling. Provide digital twin monitoring systems for city management departments to view the operation of urban traffic in real time.
+    - FOC电机控制
+    - SEA柔性驱动器
+  - title: 基于车路云的智慧城市交通灯信控系统
+    duration: 5个月
+    summary: 通过摄像头监测城市道路中车辆运行情况及数据，自适应优化交通灯调度，对于城市管理部门提供数字孪生监控系统，可实时查看城市交通的运行情况。
     detail:
       md: _data/demo.md
-    sub: Alg. & H/W Dev. Resp.
+    sub: 算法开发&硬件开发负责人
     tags:
-    - SUMO micro traffic simulation
-    - Unity3D digital twin
-    - TinyML embedded AI
-    - ESP32 IoT development
-  - title: Driving Behavior Detection & Eval System based on TENG
-    duration: 8 months
-    summary: Utilize the characteristics of triboelectric nanogenerators to convert different types of mechanical signals into electrical signals. Analyze a large amount of electrical signal data through deep learning algorithms to achieve classification and prediction in different scenarios.
+    - SUMO微观交通仿真
+    - Unity3D数字孪生
+    - TinyML嵌入式AI
+    - ESP32物联网开发
+  - title: 基于摩擦纳米发电的驾驶行为检测评估系统
+    duration: 8个月
+    summary: 利用摩擦纳米发电机特性，可将不同类型的机械信号转换为电信号，通过深度学习算法分析大量电信号数据以实现不同场景的分类和预测。
     detail:
       md: _data/demo.md
-    sub: Project leader
+    sub: 项目负责人
     tags:
-    - TENG triboelectric nanogenerator
-    - TinyML embedded AI
-    - ESP32 IoT development
+    - TENG摩擦纳米发电机
+    - TinyML嵌入式AI
+    - ESP32物联网开发
     - ML&DL
 
-#others Other brief content (list)
-others:
-- type: others
-  name: Other
-  content:
-  - title: Interests：
-    items:
-    - Electronic products
-    - Listening to books
-    - Singing
-    - Travel
-    - Animation
+#others 其他简略内容(列表)
+others: #其他列表显示
+- type: others #ID可以为空
+  name: 其他
+  content: #选择需要的格式
+  - title: 兴趣：
+    items: #单行列表
+    - 电子产品
+    - 听书
+    - 唱歌
+    - 旅游
+    - 动漫
   - title: MBTI：
-    items: INTJ - Architect
-  - title: Awards
+    items: INTJ - 建筑师
+  - title: 奖项
     list:
-    - 2021 ICAN National College Students Innovation and Entrepreneurship Competition Finals, Rehabilitation Robot for Lower Limb Muscle Weakness Elderly Toilet Escort, Second Prize Nationally
-    - The 5th Fourier Cup China Rehabilitation Innovation Competition, Active and Passive Rehabilitation Training Robotic Arm, Second Prize Nationally
-    - “Smart Chongqing. See the Future” Huawei Cloud Artificial Intelligence Competition, Rehabilitation System for Lower Limb Muscle Weakness Patients Sitting and Standing Conversion, Third Prize Nationally
-    - 2022 16th "Siemens Cup" China Intelligent Manufacturing Challenge Competition National Preliminaries, Intelligent Manufacturing Innovation and R&D Event：Enterprise Proposed Direction, First Prize
-    - 2021 Internet +, AIOT Smart Community Services, First Prize Provincially / Finalist Nationally
-    - 2022 3D Digital Innovation Design Competition Elite League, Rehabilitation Robot for Weak and Disabled Elderly Walking and Toileting, First Prize Provincially
-    - 2022 Mechanical Innovation Design Competition, Coral Worm Tentacle Variable Stiffness Origami Robot Arm, Second Prize Provincially
-    - 2022 Robotics and Artificial Intelligence Competition, Silver Age Butler - Upper Limb Rehabilitation Training Evaluation System Based on Multimodal Information Fusion, Third Prize Provincially
-    - 2022 US-China Youth Maker Competition, Intelligent Mobile Full Omnidirectional Photovoltaic Power Generation Robot Based on ROS System, Third Prize Provincially
+    - 2021年ICAN全国大学生创新创业大赛总决赛，用于下肢肌无力老人步行康复如厕陪护机器人，国二
+    - 第五届傅利叶杯中国康复人创意大赛，主被动式康复训练机械臂，国二
+    - “智联重庆.渝见未来”华为云人工智能大赛，用于下肢肌无力患者的坐站转换康复系统，国三
+    - 2022年第十六届“西门子杯”中国智能制造挑战赛全国初赛，智能制造创新研发类赛项:企业命题方向，一等奖
+    - 2021年互联网+，AIOT智慧社区服务，省一/入围国赛
+    - 2022年三维数字化创新设计大赛精英联赛，用于弱能失能老人的助行如厕/康复机器人，省一
+    - 2022年机械创新设计大赛，仿珊瑚虫触手的变刚度折纸式机械手，省二
+    - 2022年机器人及人工智能大赛，银发管家—基于多模态信息融合的上肢康复训练评估系统，省三
+    - 2022年中美青年创客大赛，基于ROS系统的智能移动式全向光伏发电机器人，省三
 
-#footer Footnote, print version and web version are different without display
-footer:
-  print:
+#- type:
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示
+footer: #脚注多组
+  print: #打印版markdown或者html
   screen:
-  - text: "Resume Footnote"
+  - text: "简历脚注"
   #   href: '/'
-  - text: "For more personal information, please visit the blog"
-    href: "<http://huigang39.github.io>"
+  - text: "更多个人信息请访问博客"
+    href: "https://huigang39.github.io"
 
-#Additional page JS scripts, such as XX statistics
+#页面额外js脚本，如xx统计
 scripts:
 #- src: "assets/js/resume.js"
-# defer: defer #You can set defer or sync for asynchronous loading
+#  defer: defer #可以设置defer或者sync异步加载
