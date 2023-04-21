@@ -51,7 +51,7 @@ main:
     - 机器学习
     - 编程语言：C++ Python Shell
   - title: 硬件技能
-    detail: 1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br> &nbsp &nbsp &nbsp
+    detail: 1. 熟悉ESP32、STM32和Arduino等MCU的硬件电路设计和开发，包括PCB设计、零件选型和手工焊接贴片等 <br> &nbsp &nbsp
             2. 熟练使用Fusion360、立创EDA等电子设计和建模工具，能够进行产品结构和外观设计 <br>
   - title: 软件技能
     detail: 1. 在Linux环境下有多年开发经验，熟悉Morden C++和Python编程语言 <br>
