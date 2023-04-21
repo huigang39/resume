@@ -107,7 +107,7 @@ main:
     tags:
     - FOC motor control
     - SEA compliant driver
-  - title: Intelligent Traffic Light Ctrl System based on Vehicle Road Cloud
+  - title: iTraffic Light Ctrl System (Vehicle Road Cloud-based)
     duration: 5 months
     summary: Monitor the operation of vehicles on city roads through cameras and adaptively optimize traffic light scheduling. Provide digital twin monitoring systems for city management departments to view the operation of urban traffic in real time.
     detail:
