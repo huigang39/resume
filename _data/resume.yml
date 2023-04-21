@@ -85,8 +85,8 @@ main:
       md: _data/demo.md
     sub: 软件开发&结构设计负责人
     tags:
-    - OpenPose
-    - Neo4j
+    - OpenPose人体姿态识别
+    - Neo4j图数据库
   - title: 康复评估系统
     duration: 2个月
     summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
@@ -94,8 +94,8 @@ main:
       md: _data/demo.md
     sub: 项目负责人
     tags:
-    - Noiton
-    - IMU
+    - Noiton动作捕捉
+    - IMU惯性传感器
     - ML&DL
   - title: 柔性驱动器
     duration: 2个月
@@ -113,10 +113,10 @@ main:
       md: _data/demo.md
     sub: 算法开发&硬件开发负责人
     tags:
-    - SUMO
-    - Unity3D
-    - TinyML
-    - ESP32
+    - SUMO微观交通仿真
+    - Unity3D数字孪生
+    - TinyML嵌入式AI
+    - ESP32物联网开发
   - title: 摩擦纳米发电
     duration: 8个月
     summary: 利用摩擦纳米发电机特性，可将不同类型的机械信号转换为电信号，通过深度学习算法分析大量电信号数据以实现不同场景的分类和预测。
@@ -124,9 +124,9 @@ main:
       md: _data/demo.md
     sub: 项目负责人
     tags:
-    - TENG
-    - TinyML
-    - ESP32
+    - TENG摩擦纳米发电机
+    - TinyML嵌入式AI
+    - ESP32物联网开发
     - ML&DL
 
 #others 其他简略内容(列表)
