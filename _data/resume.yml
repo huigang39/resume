@@ -140,11 +140,11 @@ others: #其他列表显示
   content: #选择需要的格式
   - title: 兴趣：
     items: #单行列表
-    - 电子产品
-    - 听书
-    - 唱歌
-    - 旅游
+    - 数码
+    - 阅读
+    - 音乐
     - 动漫
+    - 旅游
   - title: MBTI：
     items: INTJ - 建筑师
   - title: 奖项
