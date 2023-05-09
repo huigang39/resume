@@ -137,11 +137,11 @@ others:
   content:
   - title: Interests：
     items:
-     - Technology
-     - Reading
-     - Music
-     - Anime
-     - Travel
+    - Technology
+    - Reading
+    - Music
+    - Anime
+    - Travel
   - title: MBTI：
     items: INTJ - Architect
   - title: Awards
