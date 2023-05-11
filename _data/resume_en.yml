@@ -78,7 +78,7 @@ main:
 - type: projects
   name: Projects
   content:
-  - title: Lower Limb STS Rehab Exoskeleton
+  - title: STS Transfer Rehab System For LLAS Patients
     duration: 1 year
     summary: Assist stroke patients to complete the rehabilitation process from sitting to standing, and use inertial motion capture technology to collect the rehabilitation exercise posture of patients combined with the rehabilitation assessment system to evaluate the rehabilitation course.
     detail:
