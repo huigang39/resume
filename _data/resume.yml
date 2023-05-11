@@ -81,7 +81,7 @@ main:
 - type: projects
   name: 项目
   content:
-  - title: 用于中风患者的下肢坐站转换康复外骨骼
+  - title: 用于下肢动脉硬化患者的坐站转换康复系统
     duration: 1年
     summary: 辅助脑卒中患者完成坐站转换康复过程，并采用惯性动作捕捉技术采集患者的康复运动姿态，结合康复评估系统进行康复疗程的评估。
     detail:
