@@ -1,7 +1,7 @@
 title: "个人简历"
 lang: "zh"
 name: "王慧钢"
-jobtitle: "嵌入式软件开发"
+jobtitle: "C++开发"
 photo: "assets/img/photo.png"
 
 #联系方式
@@ -145,7 +145,7 @@ others: #其他列表显示
           - 动漫
           - 旅游
       - title: MBTI：
-        items: INTJ - 建筑师
+        items: INTP - 逻辑学家
       - title: 奖项
         list:
           - 2021年ICAN全国大学生创新创业大赛总决赛，用于下肢肌无力老人步行康复如厕陪护机器人，国二
