@@ -98,7 +98,7 @@ main:
           - OpenPose 人体姿态识别
           - Neo4j 图数据库
       - title: 基于多模态信息融合的上肢康复训练评估系统
-        duration: 3个月
+        duration: 3 个月
         summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
         detail:
           md: _data/REAS.md
