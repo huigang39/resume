@@ -77,6 +77,12 @@ main:
         summary: 大组管理层，项目负责人
         detail: 负责工作室结构优化与智能控制组的管理事务（人员、物品、培训等），和智能汽车组的部分事务，先后担任多个项目的负责人。
         # open: open
+      - title: 巨翊科技（上海）有限公司
+        duration: 2023年07月 - 2023年09月
+        tags:
+          - 医疗器械公司
+        summary: 实习生，项目成员
+        detail: 参与中频治疗仪的项目开发，负责基于STM32F409 MCU的线圈拍和主控的开发维护，后期参与Linux上位机的QT界面开发。
 
   - type: projects
     name: 项目
