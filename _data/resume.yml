@@ -82,7 +82,7 @@ main:
         tags:
           - 医疗器械公司
         summary: 实习生，项目成员
-        detail: 参与中频治疗仪的项目开发，负责基于 STM32F409 MCU 的线圈拍和主控的开发维护，后期参与Linux上位机的QT界面开发。
+        detail: 参与中频治疗仪的项目开发，负责基于 STM32F409 MCU 的线圈拍和主控的开发维护，后期参与 Linux 上位机的 QT 界面开发。
 
   - type: projects
     name: 项目
