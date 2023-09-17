@@ -104,9 +104,9 @@ main:
           md: _data/REAS.md
         sub: 项目负责人
         tags:
-          - Noiton动作捕捉
           - IMU惯性传感器
           - 数据处理与分析
+          - 姿态解算
           - 深度学习
       - title: 基于阻抗控制的柔性驱动系统
         duration: 2个月
