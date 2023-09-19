@@ -124,7 +124,7 @@ others: #其他列表显示
           - OpenPose 人体姿态识别
           - Neo4j 图数据库
       - title: 基于多模态信息融合的上肢康复训练评估系统
-        duration: 3 个月
+        duration: 4 个月
         summary: 用于脑卒中患者的主被动式上肢康复训练评估系统，在辅助脑卒中患者执行康复训练运动的同时会对训练结果进行定量评估。
         detail:
           md: _data/REAS.md
@@ -135,7 +135,7 @@ others: #其他列表显示
           - 姿态解算
           - 深度学习
       - title: 基于阻抗控制的柔性驱动系统
-        duration: 2 个月
+        duration: 3 个月
         summary: 从物理和软件层面实现对机器人柔顺运动性能的控制，并通过改变期望动态特性以满足不同交互操作任务的柔顺性需求。
         detail:
           md: _data/SEA.md
@@ -155,7 +155,7 @@ others: #其他列表显示
       #     - TinyML嵌入式AI
       #     - ESP32开发
       - title: 基于摩擦纳米发电的驾驶行为检测评估系统
-        duration: 2 个月
+        duration: 3 个月
         summary: 利用摩擦纳米发电机特性，可将不同类型的机械信号转换为电信号，通过 CNN 卷积神经网络分析大量电信号数据以实现不同场景的分类和预测。
         detail:
           md: _data/TENG.md
