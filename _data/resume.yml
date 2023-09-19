@@ -67,8 +67,25 @@ main:
           3. 较强的信息检索能力，能够快速学习新技术与开发环境，适应不同项目需求 <br> &nbsp; &numsp;
           4. 一定的沟通表达能力，能够与不同技术背景的人交流技术问题和方案
 
-#others 其他简略内容(列表)
-others: #其他列表显示
+  - type: experience
+    name: 经历
+    content:
+      - title: 梅科尔工作室（Maker Studio）
+        duration: 2020 年 09 月 - 至今
+        tags:
+          - 学校组织
+        summary: 大组管理层，项目负责人
+        detail: 负责工作室结构优化与智能控制组的管理事务（人员、物品、培训等），和智能汽车组的部分事务，先后担任多个项目的负责人。
+        # open: open
+      - title: 巨翊科技（上海）有限公司
+        duration: 2023 年 07 月 - 2023 年 09 月
+        tags:
+          - 医疗器械公司
+        summary: 实习生，项目成员
+        detail: 参与中频治疗仪的项目开发，负责基于 STM32F409 MCU 的线圈拍和主控的开发维护，后期参与 Linux 上位机的 QT 界面开发。
+
+# #others 其他简略内容(列表)
+# others: #其他列表显示
   - type: others #ID可以为空
     name: 其他
     content: #选择需要的格式
@@ -92,23 +109,6 @@ others: #其他列表显示
           - 2022 年机械创新设计大赛，仿珊瑚虫触手的变刚度折纸式机械手，省二
           - 2022 年机器人及人工智能大赛，银发管家—基于多模态信息融合的上肢康复训练评估系统，省三
           - 2022 年中美青年创客大赛，基于 ROS 系统的智能移动式全向光伏发电机器人，省三
-
-  - type: experience
-    name: 经历
-    content:
-      - title: 梅科尔工作室（Maker Studio）
-        duration: 2020 年 09 月 - 至今
-        tags:
-          - 学校组织
-        summary: 大组管理层，项目负责人
-        detail: 负责工作室结构优化与智能控制组的管理事务（人员、物品、培训等），和智能汽车组的部分事务，先后担任多个项目的负责人。
-        # open: open
-      - title: 巨翊科技（上海）有限公司
-        duration: 2023 年 07 月 - 2023 年 09 月
-        tags:
-          - 医疗器械公司
-        summary: 实习生，项目成员
-        detail: 参与中频治疗仪的项目开发，负责基于 STM32F409 MCU 的线圈拍和主控的开发维护，后期参与 Linux 上位机的 QT 界面开发。
 
   - type: projects
     name: 项目
