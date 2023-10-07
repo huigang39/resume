@@ -52,7 +52,7 @@ main:
           - 编程语言：C++、Python、Shell
       - title: 硬件技能
         detail:
-          1. 熟悉 ESP32、STM32 和 Arduino 等 MCU 的外围电路设计及其软件开发，包括 PCB 设计、零件选型、手工焊接贴片及编程烧录等 <br> &nbsp; &numsp;
+          1. 熟悉 STM32、ESP32 和 Arduino 等 MCU 的外围电路设计及其软件开发，包括 PCB 设计、零件选型、手工焊接贴片及编程烧录等 <br> &nbsp; &numsp;
           2. 熟练使用 Fusion360、立创 EDA 等建模和电子设计工具，能够进行产品结构和外观设计 <br>
       - title: 软件技能
         detail:
